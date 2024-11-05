@@ -1,0 +1,43 @@
+	html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+nav {
+    background-color: #3ba156; /* Groene achtergrondkleur voor de nav */
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Zorgt ervoor dat de navigatie altijd boven de afbeelding staat */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    color: blue;
+}
+
+.banner-container {
+    position: relative;
+    text-align: center;
+}
